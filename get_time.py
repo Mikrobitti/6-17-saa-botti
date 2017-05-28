@@ -1,3 +1,7 @@
+# get_time.py
+# Tiedostossa luodaan aikaleima. Aikaleimaa myöhästytetään nykyhetkestä, jotta
+# rajapinta saadaan palauttamaan haluttua tietoa
+
 from time import gmtime, strftime
 import datetime
 

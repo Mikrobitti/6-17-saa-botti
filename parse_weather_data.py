@@ -1,16 +1,19 @@
+# get_weather_data.py
+
+# Tiedostossa käsitellään XML-muotoista dataa ilmatieteenlaitoksen avoimesta rajapinnasta.
+# Rekisteröityä voi osoiteessa https://ilmatieteenlaitos.fi/rekisteroityminen-avoimen-datan-kayttajaksi
+
+
 from get_data import get_data
 import os
 import xml.etree.ElementTree as ET
 import collections
 
 FMI_API_KEY = os.environ['FMI_API_KEY']
-WIT_APP_KEY = os.environ['WIT_APP_KEY']
-WIT_SERVER_ACCESS_TOKEN = os.environ['WIT_SERVER_ACCESS_TOKEN']
-WIT_AI_URL = "https://api.wit.ai/message?v=20170502&q="
 
 weather_now_url = "http://data.fmi.fi/fmi-apikey/" + FMI_API_KEY + "/wfs?request=getFeature&storedquery_id=fmi::observations::weather::simple&place="
 
-def get_weather_data(location):
+def parse_weather_data(location):
     data = get_data(weather_now_url, location, "get_weather_data")
     root = ET.fromstring(data)
 

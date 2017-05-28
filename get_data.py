@@ -1,3 +1,7 @@
+# get_data.py
+# Tiedostossa suoritetaan varsinainen datan hakeminen ilmatieteenlaitoksen
+# rajapinnasta
+
 from get_time import get_time
 import requests
 
@@ -5,7 +9,8 @@ def get_data(url, location, req_type):
 
     timestamp = ""
 
-    #Different time delays for different queries
+    # FMI:n rajapintaa lisää tutkimalla on varmasti mahdollista löytää tapa, jolla
+    # tuoreet havainnot sää muuten kuin kyselyyn viivettä lisäämällä
     if req_type == "get_weather_data":
         timestamp = get_time(20)
 
