@@ -17,7 +17,7 @@ Ohjelman suorittaminen vaatii Python 3 -tulkin, Voikko-ohjelman ja PIP-pakettima
 2. `pip install requests`
 3. `apt-get install python-libvoikko`
 4. Luo tili wit.ai:hin ja opeta bottisi. Asetukset sivulta löydät sovelluksesi palvelinavaimen.
-5. Laita tarvittavat ympäristömuuttujat paikoilleen: `export WIT_SERVER_ACCESS_TOKEN=[oma palvelinavaimen]` ja `export FMI_API_KEY [oma api-avaimesi ilmatieteenlaitoksen rajapintaan]`. Ilmatieteenlaitoksen rajapintaan saat tunnukset osoitteesta https://ilmatieteenlaitos.fi/rekisteroityminen-avoimen-datan-kayttajaksi
+5. Laita tarvittavat ympäristömuuttujat paikoilleen: `export WIT_SERVER_ACCESS_TOKEN=[oma palvelinavaimen]` ja `export FMI_API_KEY=[oma api-avaimesi ilmatieteenlaitoksen rajapintaan]`. Ilmatieteenlaitoksen rajapintaan saat tunnukset osoitteesta https://ilmatieteenlaitos.fi/rekisteroityminen-avoimen-datan-kayttajaksi
 
 
 ## Aja koodi komennolla
