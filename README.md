@@ -4,10 +4,16 @@ Botti on kirjoitettu python-kielellä ja se käyttää hyväkseen wit.ai:n lisä
  
 Asennettuasi voikon ja tarvittavat python kirjastot (requests, libvoikko) laita allaolevat tiedostot samaan kansioon ja ja aja weather.py komennolla python3 weather.py.
 
-## Asennus suomenkielisellä ubuntu-käyttöjärjestelmällä (voikko tulee sisäänrakennettuna)
+## Vaatimukset
 
-1. `pip install requests`
-2. `apt-get install python-libvoikko`
+Ohjelman suorittaminen vaatii Python 3 -tulkin, Voikko-ohjelman ja PIP-pakettimanagerin.
+
+## Asennus suomenkielisellä ubuntu-käyttöjärjestelmällä (jossa Voikko tulee sisäänrakennettuna)
+
+
+1. Hae koodi `git clone https://github.com/Mikrobitti/6-17-saabotti.git` 
+2. `pip install requests`
+3. `apt-get install python-libvoikko`
 
 ## Aja koodia komennolla
 
