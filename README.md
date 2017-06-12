@@ -4,7 +4,7 @@ Botti on kirjoitettu python-kielellä ja se käyttää hyväkseen wit.ai:n lisä
  
 Asennettuasi voikon ja tarvittavat python kirjastot (requests, libvoikko) laita allaolevat tiedostot samaan kansioon ja ja aja weather.py komennolla python3 weather.py.
 
-## Asennus ubuntu-käyttöjärjestelmällä
+## Asennus suomenkielisellä ubuntu-käyttöjärjestelmällä (voikko tulee sisäänrakennettuna)
 
 1. `pip install requests`
 2. `apt-get install python-libvoikko`
