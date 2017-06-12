@@ -15,6 +15,6 @@ Ohjelman suorittaminen vaatii Python 3 -tulkin, Voikko-ohjelman ja PIP-pakettima
 2. `pip install requests`
 3. `apt-get install python-libvoikko`
 
-## Aja koodia komennolla
+## Aja koodi komennolla
 
 `python3 weather.py`
